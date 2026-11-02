@@ -38,7 +38,7 @@ app.get('/komik', async (req, res) => {
     }
 });
 
-app.get('/komik/:id', async (req, res) => {
+app.put('/komik/:id', async (req, res) => {
     const id = req.params.id;
     const data = req.body;
     try {
